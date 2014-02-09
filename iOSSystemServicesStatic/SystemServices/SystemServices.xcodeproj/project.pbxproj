@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC6986D918A7EA4D00D8AD84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6986D818A7EA4D00D8AD84 /* Foundation.framework */; };
+		AC6986E718A7EA4D00D8AD84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6986E618A7EA4D00D8AD84 /* XCTest.framework */; };
+		AC6986E818A7EA4D00D8AD84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6986D818A7EA4D00D8AD84 /* Foundation.framework */; };
+		AC6986EA18A7EA4D00D8AD84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6986E918A7EA4D00D8AD84 /* UIKit.framework */; };
+		AC6986ED18A7EA4D00D8AD84 /* libSystemServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6986D518A7EA4D00D8AD84 /* libSystemServices.a */; };
+		AC6986F318A7EA4D00D8AD84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC6986F118A7EA4D00D8AD84 /* InfoPlist.strings */; };
+		AC6986F518A7EA4D00D8AD84 /* SystemServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6986F418A7EA4D00D8AD84 /* SystemServicesTests.m */; };
+		AC69872018A7EA7200D8AD84 /* NSObject+PerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870018A7EA7200D8AD84 /* NSObject+PerformBlockAfterDelay.m */; };
+		AC69872118A7EA7200D8AD84 /* SSAccelerometerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870218A7EA7200D8AD84 /* SSAccelerometerInfo.m */; };
+		AC69872218A7EA7200D8AD84 /* SSAccessoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870418A7EA7200D8AD84 /* SSAccessoryInfo.m */; };
+		AC69872318A7EA7200D8AD84 /* SSApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870618A7EA7200D8AD84 /* SSApplicationInfo.m */; };
+		AC69872418A7EA7200D8AD84 /* SSBatteryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870818A7EA7200D8AD84 /* SSBatteryInfo.m */; };
+		AC69872518A7EA7200D8AD84 /* SSCarrierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870A18A7EA7200D8AD84 /* SSCarrierInfo.m */; };
+		AC69872618A7EA7200D8AD84 /* SSDiskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870C18A7EA7200D8AD84 /* SSDiskInfo.m */; };
+		AC69872718A7EA7200D8AD84 /* SSHardwareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69870E18A7EA7200D8AD84 /* SSHardwareInfo.m */; };
+		AC69872818A7EA7200D8AD84 /* SSJailbreakCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871018A7EA7200D8AD84 /* SSJailbreakCheck.m */; };
+		AC69872918A7EA7200D8AD84 /* SSLocalizationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871218A7EA7200D8AD84 /* SSLocalizationInfo.m */; };
+		AC69872A18A7EA7200D8AD84 /* SSMemoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871418A7EA7200D8AD84 /* SSMemoryInfo.m */; };
+		AC69872B18A7EA7200D8AD84 /* SSNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871618A7EA7200D8AD84 /* SSNetworkInfo.m */; };
+		AC69872C18A7EA7200D8AD84 /* SSProcessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871818A7EA7200D8AD84 /* SSProcessInfo.m */; };
+		AC69872D18A7EA7200D8AD84 /* SSProcessorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871A18A7EA7200D8AD84 /* SSProcessorInfo.m */; };
+		AC69872E18A7EA7200D8AD84 /* SSUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871C18A7EA7200D8AD84 /* SSUUID.m */; };
+		AC69872F18A7EA7200D8AD84 /* SystemServices.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69871F18A7EA7200D8AD84 /* SystemServices.m */; };
+		AC69873118A7EA8400D8AD84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC69873018A7EA8400D8AD84 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC6986EB18A7EA4D00D8AD84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC6986CD18A7EA4D00D8AD84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC6986D418A7EA4D00D8AD84;
+			remoteInfo = SystemServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC6986D318A7EA4D00D8AD84 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC6986D518A7EA4D00D8AD84 /* libSystemServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSystemServices.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6986D818A7EA4D00D8AD84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC6986DC18A7EA4D00D8AD84 /* SystemServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SystemServices-Prefix.pch"; sourceTree = "<group>"; };
+		AC6986E518A7EA4D00D8AD84 /* SystemServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6986E618A7EA4D00D8AD84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC6986E918A7EA4D00D8AD84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC6986F018A7EA4D00D8AD84 /* SystemServicesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SystemServicesTests-Info.plist"; sourceTree = "<group>"; };
+		AC6986F218A7EA4D00D8AD84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC6986F418A7EA4D00D8AD84 /* SystemServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemServicesTests.m; sourceTree = "<group>"; };
+		AC6986FF18A7EA7200D8AD84 /* NSObject+PerformBlockAfterDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlockAfterDelay.h"; sourceTree = "<group>"; };
+		AC69870018A7EA7200D8AD84 /* NSObject+PerformBlockAfterDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformBlockAfterDelay.m"; sourceTree = "<group>"; };
+		AC69870118A7EA7200D8AD84 /* SSAccelerometerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccelerometerInfo.h; sourceTree = "<group>"; };
+		AC69870218A7EA7200D8AD84 /* SSAccelerometerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccelerometerInfo.m; sourceTree = "<group>"; };
+		AC69870318A7EA7200D8AD84 /* SSAccessoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAccessoryInfo.h; sourceTree = "<group>"; };
+		AC69870418A7EA7200D8AD84 /* SSAccessoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAccessoryInfo.m; sourceTree = "<group>"; };
+		AC69870518A7EA7200D8AD84 /* SSApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSApplicationInfo.h; sourceTree = "<group>"; };
+		AC69870618A7EA7200D8AD84 /* SSApplicationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSApplicationInfo.m; sourceTree = "<group>"; };
+		AC69870718A7EA7200D8AD84 /* SSBatteryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBatteryInfo.h; sourceTree = "<group>"; };
+		AC69870818A7EA7200D8AD84 /* SSBatteryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBatteryInfo.m; sourceTree = "<group>"; };
+		AC69870918A7EA7200D8AD84 /* SSCarrierInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCarrierInfo.h; sourceTree = "<group>"; };
+		AC69870A18A7EA7200D8AD84 /* SSCarrierInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCarrierInfo.m; sourceTree = "<group>"; };
+		AC69870B18A7EA7200D8AD84 /* SSDiskInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDiskInfo.h; sourceTree = "<group>"; };
+		AC69870C18A7EA7200D8AD84 /* SSDiskInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDiskInfo.m; sourceTree = "<group>"; };
+		AC69870D18A7EA7200D8AD84 /* SSHardwareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHardwareInfo.h; sourceTree = "<group>"; };
+		AC69870E18A7EA7200D8AD84 /* SSHardwareInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHardwareInfo.m; sourceTree = "<group>"; };
+		AC69870F18A7EA7200D8AD84 /* SSJailbreakCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJailbreakCheck.h; sourceTree = "<group>"; };
+		AC69871018A7EA7200D8AD84 /* SSJailbreakCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJailbreakCheck.m; sourceTree = "<group>"; };
+		AC69871118A7EA7200D8AD84 /* SSLocalizationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLocalizationInfo.h; sourceTree = "<group>"; };
+		AC69871218A7EA7200D8AD84 /* SSLocalizationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLocalizationInfo.m; sourceTree = "<group>"; };
+		AC69871318A7EA7200D8AD84 /* SSMemoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMemoryInfo.h; sourceTree = "<group>"; };
+		AC69871418A7EA7200D8AD84 /* SSMemoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMemoryInfo.m; sourceTree = "<group>"; };
+		AC69871518A7EA7200D8AD84 /* SSNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetworkInfo.h; sourceTree = "<group>"; };
+		AC69871618A7EA7200D8AD84 /* SSNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNetworkInfo.m; sourceTree = "<group>"; };
+		AC69871718A7EA7200D8AD84 /* SSProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessInfo.h; sourceTree = "<group>"; };
+		AC69871818A7EA7200D8AD84 /* SSProcessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessInfo.m; sourceTree = "<group>"; };
+		AC69871918A7EA7200D8AD84 /* SSProcessorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProcessorInfo.h; sourceTree = "<group>"; };
+		AC69871A18A7EA7200D8AD84 /* SSProcessorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProcessorInfo.m; sourceTree = "<group>"; };
+		AC69871B18A7EA7200D8AD84 /* SSUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSUUID.h; sourceTree = "<group>"; };
+		AC69871C18A7EA7200D8AD84 /* SSUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSUUID.m; sourceTree = "<group>"; };
+		AC69871D18A7EA7200D8AD84 /* SystemServicesConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemServicesConstants.h; sourceTree = "<group>"; };
+		AC69871E18A7EA7200D8AD84 /* SystemServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemServices.h; path = ../../../../iOSSystemServices/iOSSystemServiceStatic/iOSSystemServices/iOSSystemServices/SystemServices.h; sourceTree = "<group>"; };
+		AC69871F18A7EA7200D8AD84 /* SystemServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystemServices.m; path = ../../../../iOSSystemServices/iOSSystemServiceStatic/iOSSystemServices/iOSSystemServices/SystemServices.m; sourceTree = "<group>"; };
+		AC69873018A7EA8400D8AD84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC6986D218A7EA4D00D8AD84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC69873118A7EA8400D8AD84 /* UIKit.framework in Frameworks */,
+				AC6986D918A7EA4D00D8AD84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6986E218A7EA4D00D8AD84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6986E718A7EA4D00D8AD84 /* XCTest.framework in Frameworks */,
+				AC6986EA18A7EA4D00D8AD84 /* UIKit.framework in Frameworks */,
+				AC6986ED18A7EA4D00D8AD84 /* libSystemServices.a in Frameworks */,
+				AC6986E818A7EA4D00D8AD84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC6986CC18A7EA4D00D8AD84 = {
+			isa = PBXGroup;
+			children = (
+				AC6986DA18A7EA4D00D8AD84 /* SystemServices */,
+				AC6986EE18A7EA4D00D8AD84 /* SystemServicesTests */,
+				AC6986D718A7EA4D00D8AD84 /* Frameworks */,
+				AC6986D618A7EA4D00D8AD84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC6986D618A7EA4D00D8AD84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC6986D518A7EA4D00D8AD84 /* libSystemServices.a */,
+				AC6986E518A7EA4D00D8AD84 /* SystemServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC6986D718A7EA4D00D8AD84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC69873018A7EA8400D8AD84 /* UIKit.framework */,
+				AC6986D818A7EA4D00D8AD84 /* Foundation.framework */,
+				AC6986E618A7EA4D00D8AD84 /* XCTest.framework */,
+				AC6986E918A7EA4D00D8AD84 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC6986DA18A7EA4D00D8AD84 /* SystemServices */ = {
+			isa = PBXGroup;
+			children = (
+				AC6986FE18A7EA7200D8AD84 /* Utilities */,
+				AC69871E18A7EA7200D8AD84 /* SystemServices.h */,
+				AC69871F18A7EA7200D8AD84 /* SystemServices.m */,
+				AC6986DB18A7EA4D00D8AD84 /* Supporting Files */,
+			);
+			path = SystemServices;
+			sourceTree = "<group>";
+		};
+		AC6986DB18A7EA4D00D8AD84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6986DC18A7EA4D00D8AD84 /* SystemServices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC6986EE18A7EA4D00D8AD84 /* SystemServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC6986F418A7EA4D00D8AD84 /* SystemServicesTests.m */,
+				AC6986EF18A7EA4D00D8AD84 /* Supporting Files */,
+			);
+			path = SystemServicesTests;
+			sourceTree = "<group>";
+		};
+		AC6986EF18A7EA4D00D8AD84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6986F018A7EA4D00D8AD84 /* SystemServicesTests-Info.plist */,
+				AC6986F118A7EA4D00D8AD84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC6986FE18A7EA7200D8AD84 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC6986FF18A7EA7200D8AD84 /* NSObject+PerformBlockAfterDelay.h */,
+				AC69870018A7EA7200D8AD84 /* NSObject+PerformBlockAfterDelay.m */,
+				AC69870118A7EA7200D8AD84 /* SSAccelerometerInfo.h */,
+				AC69870218A7EA7200D8AD84 /* SSAccelerometerInfo.m */,
+				AC69870318A7EA7200D8AD84 /* SSAccessoryInfo.h */,
+				AC69870418A7EA7200D8AD84 /* SSAccessoryInfo.m */,
+				AC69870518A7EA7200D8AD84 /* SSApplicationInfo.h */,
+				AC69870618A7EA7200D8AD84 /* SSApplicationInfo.m */,
+				AC69870718A7EA7200D8AD84 /* SSBatteryInfo.h */,
+				AC69870818A7EA7200D8AD84 /* SSBatteryInfo.m */,
+				AC69870918A7EA7200D8AD84 /* SSCarrierInfo.h */,
+				AC69870A18A7EA7200D8AD84 /* SSCarrierInfo.m */,
+				AC69870B18A7EA7200D8AD84 /* SSDiskInfo.h */,
+				AC69870C18A7EA7200D8AD84 /* SSDiskInfo.m */,
+				AC69870D18A7EA7200D8AD84 /* SSHardwareInfo.h */,
+				AC69870E18A7EA7200D8AD84 /* SSHardwareInfo.m */,
+				AC69870F18A7EA7200D8AD84 /* SSJailbreakCheck.h */,
+				AC69871018A7EA7200D8AD84 /* SSJailbreakCheck.m */,
+				AC69871118A7EA7200D8AD84 /* SSLocalizationInfo.h */,
+				AC69871218A7EA7200D8AD84 /* SSLocalizationInfo.m */,
+				AC69871318A7EA7200D8AD84 /* SSMemoryInfo.h */,
+				AC69871418A7EA7200D8AD84 /* SSMemoryInfo.m */,
+				AC69871518A7EA7200D8AD84 /* SSNetworkInfo.h */,
+				AC69871618A7EA7200D8AD84 /* SSNetworkInfo.m */,
+				AC69871718A7EA7200D8AD84 /* SSProcessInfo.h */,
+				AC69871818A7EA7200D8AD84 /* SSProcessInfo.m */,
+				AC69871918A7EA7200D8AD84 /* SSProcessorInfo.h */,
+				AC69871A18A7EA7200D8AD84 /* SSProcessorInfo.m */,
+				AC69871B18A7EA7200D8AD84 /* SSUUID.h */,
+				AC69871C18A7EA7200D8AD84 /* SSUUID.m */,
+				AC69871D18A7EA7200D8AD84 /* SystemServicesConstants.h */,
+			);
+			name = Utilities;
+			path = ../../../../iOSSystemServices/iOSSystemServiceStatic/iOSSystemServices/iOSSystemServices/Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC6986D418A7EA4D00D8AD84 /* SystemServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6986F818A7EA4D00D8AD84 /* Build configuration list for PBXNativeTarget "SystemServices" */;
+			buildPhases = (
+				AC6986D118A7EA4D00D8AD84 /* Sources */,
+				AC6986D218A7EA4D00D8AD84 /* Frameworks */,
+				AC6986D318A7EA4D00D8AD84 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SystemServices;
+			productName = SystemServices;
+			productReference = AC6986D518A7EA4D00D8AD84 /* libSystemServices.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC6986E418A7EA4D00D8AD84 /* SystemServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC6986FB18A7EA4D00D8AD84 /* Build configuration list for PBXNativeTarget "SystemServicesTests" */;
+			buildPhases = (
+				AC6986E118A7EA4D00D8AD84 /* Sources */,
+				AC6986E218A7EA4D00D8AD84 /* Frameworks */,
+				AC6986E318A7EA4D00D8AD84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC6986EC18A7EA4D00D8AD84 /* PBXTargetDependency */,
+			);
+			name = SystemServicesTests;
+			productName = SystemServicesTests;
+			productReference = AC6986E518A7EA4D00D8AD84 /* SystemServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC6986CD18A7EA4D00D8AD84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = VIKRAM;
+			};
+			buildConfigurationList = AC6986D018A7EA4D00D8AD84 /* Build configuration list for PBXProject "SystemServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC6986CC18A7EA4D00D8AD84;
+			productRefGroup = AC6986D618A7EA4D00D8AD84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC6986D418A7EA4D00D8AD84 /* SystemServices */,
+				AC6986E418A7EA4D00D8AD84 /* SystemServicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC6986E318A7EA4D00D8AD84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6986F318A7EA4D00D8AD84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC6986D118A7EA4D00D8AD84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC69872918A7EA7200D8AD84 /* SSLocalizationInfo.m in Sources */,
+				AC69872318A7EA7200D8AD84 /* SSApplicationInfo.m in Sources */,
+				AC69872218A7EA7200D8AD84 /* SSAccessoryInfo.m in Sources */,
+				AC69872018A7EA7200D8AD84 /* NSObject+PerformBlockAfterDelay.m in Sources */,
+				AC69872F18A7EA7200D8AD84 /* SystemServices.m in Sources */,
+				AC69872718A7EA7200D8AD84 /* SSHardwareInfo.m in Sources */,
+				AC69872818A7EA7200D8AD84 /* SSJailbreakCheck.m in Sources */,
+				AC69872D18A7EA7200D8AD84 /* SSProcessorInfo.m in Sources */,
+				AC69872C18A7EA7200D8AD84 /* SSProcessInfo.m in Sources */,
+				AC69872118A7EA7200D8AD84 /* SSAccelerometerInfo.m in Sources */,
+				AC69872518A7EA7200D8AD84 /* SSCarrierInfo.m in Sources */,
+				AC69872618A7EA7200D8AD84 /* SSDiskInfo.m in Sources */,
+				AC69872418A7EA7200D8AD84 /* SSBatteryInfo.m in Sources */,
+				AC69872B18A7EA7200D8AD84 /* SSNetworkInfo.m in Sources */,
+				AC69872E18A7EA7200D8AD84 /* SSUUID.m in Sources */,
+				AC69872A18A7EA7200D8AD84 /* SSMemoryInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6986E118A7EA4D00D8AD84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6986F518A7EA4D00D8AD84 /* SystemServicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC6986EC18A7EA4D00D8AD84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC6986D418A7EA4D00D8AD84 /* SystemServices */;
+			targetProxy = AC6986EB18A7EA4D00D8AD84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC6986F118A7EA4D00D8AD84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC6986F218A7EA4D00D8AD84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC6986F618A7EA4D00D8AD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC6986F718A7EA4D00D8AD84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC6986F918A7EA4D00D8AD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SystemServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemServices/SystemServices-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC6986FA18A7EA4D00D8AD84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SystemServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemServices/SystemServices-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC6986FC18A7EA4D00D8AD84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemServices/SystemServices-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SystemServicesTests/SystemServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC6986FD18A7EA4D00D8AD84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SystemServices/SystemServices-Prefix.pch";
+				INFOPLIST_FILE = "SystemServicesTests/SystemServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC6986D018A7EA4D00D8AD84 /* Build configuration list for PBXProject "SystemServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6986F618A7EA4D00D8AD84 /* Debug */,
+				AC6986F718A7EA4D00D8AD84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC6986F818A7EA4D00D8AD84 /* Build configuration list for PBXNativeTarget "SystemServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6986F918A7EA4D00D8AD84 /* Debug */,
+				AC6986FA18A7EA4D00D8AD84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC6986FB18A7EA4D00D8AD84 /* Build configuration list for PBXNativeTarget "SystemServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6986FC18A7EA4D00D8AD84 /* Debug */,
+				AC6986FD18A7EA4D00D8AD84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC6986CD18A7EA4D00D8AD84 /* Project object */;
+}
