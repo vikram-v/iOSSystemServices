@@ -1,17 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SystemServicesDemo.iOS/AccessoryInfoViewController.cs">
-    <Files>
-      <File FileName="SystemServicesDemo.iOS/HomeViewController.cs" Line="30" Column="15" />
-      <File FileName="../../iOSSystemServicesBinding/SystemServicesBinding/SystemServicesBinding/ApiDefinition.cs" Line="345" Column="16" />
-      <File FileName="SystemServicesDemo.iOS/UniqueIdentifiersInfoViewController.cs" Line="2" Column="15" />
-      <File FileName="SystemServicesDemo.iOS/DiskInfoViewController.cs" Line="11" Column="45" />
-      <File FileName="SystemServicesDemo.iOS/AccessoryInfoViewController.cs" Line="18" Column="14" />
-      <File FileName="SystemServicesDemo.iOS/CarrierInfoViewController.cs" Line="15" Column="41" />
-      <File FileName="SystemServicesDemo.iOS/NetworkInfoViewController.cs" Line="27" Column="5" />
-      <File FileName="SystemServicesDemo.iOS/MemoryInfoViewController.cs" Line="33" Column="6" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
